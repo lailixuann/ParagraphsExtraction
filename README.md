@@ -10,6 +10,8 @@ Identify and extract all the paragraphs from the papers image collected(.png), a
 ### Input: 
 ![input](inputImage/007.png)
 
+
+### Output: 
 | |Output Image|
 | ------------- |:-------------:|
 |Column 1 Paragraph 1|![output](output/007/Column1Paragraph1.png)|
