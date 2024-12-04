@@ -277,7 +277,7 @@ def slice_paragraphs(image, columns):
         p_counter = 0
         for i in range(len(paragraphs)):
             for paragraph in paragraphs[i]:
-                # Check if the length of the paragraph is greater than 60 to prevent diaplaying empty paragraph
+                # Check if the length of the paragraph is greater than 60 to prevent displaying empty paragraph
                 if len(paragraph) > 60:
                     p_counter += 1
                     cv2.imshow("Column %d Paragraph %d" %(c_counter, p_counter),paragraph)
